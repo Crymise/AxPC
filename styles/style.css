@@ -1,0 +1,43 @@
+.contact{
+  font-size: 16px;
+  margin-top: -10px;
+}
+.menubar{
+background-image: linear-gradient(to bottom, #051937, #0f3264, #1b4d95, #296ac8, #3789ff);
+}
+.formtext{
+  color: #ffffff;
+  font-family: Jetbrains Mono;
+}
+.form{
+ background-color: rgba(237, 237, 237, 0.3);
+}
+body{
+background-image: linear-gradient(to bottom, #3789ff,#3789ff,#3789ff,#3789ff,#3789ff,#3789ff,#3789ff,#3789ff,#3789ff, #7699fb, #9caaf8, #b9bdf4, #d2d1f1, #d2d1f1, #d2d1f1, #d2d1f1, #b9bdf4, #9caaf8, #7699fb, #3789ff);
+}
+
+.typing-demo {
+  width: 17ch;
+  animation: typing 2s steps(17), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.document{
+  height: 63ch;
+}
